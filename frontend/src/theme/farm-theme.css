@@ -1,0 +1,44 @@
+/**
+ * Design tokens inspired by organic / farm storefront themes.
+ * Replace or extend with ThemeForest "Farm Fresh" licensed assets when integrating purchased templates.
+ */
+:root {
+  --ff-color-leaf: #2d6a4f;
+  --ff-color-leaf-dark: #1b4332;
+  --ff-color-cream: #f8f5f0;
+  --ff-color-soil: #3d2914;
+  --ff-color-sun: #e9c46a;
+  --ff-font-heading: Georgia, 'Times New Roman', serif;
+  --ff-font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ff-radius: 12px;
+  --ff-shadow: 0 8px 24px rgba(27, 67, 50, 0.12);
+}
+
+body {
+  font-family: var(--ff-font-body);
+  background-color: var(--ff-color-cream);
+  color: var(--ff-color-soil);
+}
+
+h1,
+h2,
+h3,
+.card-title {
+  font-family: var(--ff-font-heading);
+  color: var(--ff-color-leaf-dark);
+}
+
+.btn-primary {
+  background-color: var(--ff-color-leaf);
+  border-color: var(--ff-color-leaf);
+}
+
+.btn-primary:hover {
+  background-color: var(--ff-color-leaf-dark);
+  border-color: var(--ff-color-leaf-dark);
+}
+
+.card {
+  border-radius: var(--ff-radius);
+  box-shadow: var(--ff-shadow);
+}
